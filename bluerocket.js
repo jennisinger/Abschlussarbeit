@@ -34,6 +34,7 @@ var Rakete2;
             ctx.stroke();
         }
     }
+    Rakete2.Rocket2 = Rocket2;
     // Verwendung der Rocket-Klasse mit einem Canvas
     const canvas = document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");

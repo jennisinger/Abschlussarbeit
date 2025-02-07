@@ -1,6 +1,6 @@
 "use strict";
-var Rakete2;
-(function (Rakete2) {
+var Rakete1;
+(function (Rakete1) {
     class Rocket1 {
         // Eigenschaften für den Körper, Kopf und Zündschnur der Rakete
         bodyWidth;
@@ -34,6 +34,7 @@ var Rakete2;
             ctx.stroke();
         }
     }
+    Rakete1.Rocket1 = Rocket1;
     // Verwendung der Rocket-Klasse mit einem Canvas
     const canvas = document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");
@@ -41,5 +42,5 @@ var Rakete2;
         const rocket = new Rocket1(50, 100, 30, 50); // Beispiel mit Breite 50, Höhe 100, Kopfhöhe 30 und Zündschnurlänge 50
         rocket.drawRocket(ctx, canvas.width / 2, canvas.height / 2);
     }
-})(Rakete2 || (Rakete2 = {}));
+})(Rakete1 || (Rakete1 = {}));
 //# sourceMappingURL=redrocket.js.map

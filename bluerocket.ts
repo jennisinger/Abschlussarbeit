@@ -1,6 +1,6 @@
 namespace Rakete2
 {
-class Rocket2 {
+export class Rocket2 {
     // Eigenschaften für den Körper, Kopf und Zündschnur der Rakete
     bodyWidth: number;
     bodyHeight: number;
